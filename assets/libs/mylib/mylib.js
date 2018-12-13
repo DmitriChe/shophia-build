@@ -1,1 +1,1 @@
-console.log('hello, this is my lib');
+console.log('hello, this is my lib')

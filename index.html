@@ -4,20 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
+    <title>Shophia</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+    <script defer src="assets/js/main.js"></script>
 </head>
-
 <body>
+<header class="header">
+    <div class="header-top wrapper">
+        <address class="phone">
+            <a href="tel:001555801" class="phone__number">Call +001 555 801</a>
+        </address>
+        <nav class="header-top-menu">
+            <ul class="header-top-menu__list">
+                <li class="header-top-menu__item">
+                    <a href="#" class="header-top-menu__link">WELCOME MSG!</a>
+                </li>
+                <li class="header-top-menu__item">
+                    <a href="#" class="header-top-menu__link">MY ACCOUNT</a>
+                </li>
+                <li class="header-top-menu__item">
+                    <a href="#" class="header-top-menu__link">MY WISHLIST</a>
+                </li>
+                <li class="header-top-menu__item">
+                    <a href="#" class="header-top-menu__link">LOGIN</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-bottom wrapper">
+        <h1 class="header-h1">Shophia</h1>
+        <nav class="header-bottom-menu">
+            <ul class="header-bottom-menu__list">
+                <li class="header-bottom-menu__item">
+                    <a href="#" class="header-bottom-menu__link">Home</a>
+                </li>
+                <li class="header-bottom-menu__item">
+                    <a href="#" class="header-bottom-menu__link">Gallery</a>
+                </li>
+                <li class="header-bottom-menu__item">
+                    <a href="#" class="header-bottom-menu__link">Categories</a>
+                </li>
+                <li class="header-bottom-menu__item">
+                    <a href="#" class="header-bottom-menu__link">Pages</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-bottom__right">
+            <div class="header-socials">
+                <div class="header-socials__item"><i class="fab fa-xs fa-facebook-f"></i></div>
+                <div class="header-socials__item"><i class="fab fa-xs fa-twitter"></i></div>
+                <div class="header-socials__item"><i class="fab fa-xs fa-pinterest"></i></div>
+                <div class="header-socials__item"><i class="fab fa-xs fa-instagram"></i></div>
+            </div>
+            <div class="header-dropdown">
+                <div class="header-dropdown__item">RUPIAH</div>
+                <div class="header-dropdown__arrow"><i class="fas fa-angle-down"></i></div>
+            </div>
+        </div>
+    </div>
+</header>
 
-    <section class="handpicked">
+
+<main>
+    <section class="sale wrapper">
+        <img src="assets/img/bg_image.jpg" class="sale__image">
+        <div class="sale-text">
+            <div class="sale-text__border">
+                <div class="sale-text__outline">
+                    <div class="sale-text__name">MID-SEASON</div>
+                    <div class="sale-text__main">SALE</div>
+                    <div class="sale-text__upto">UP TO</div>
+                    <div class="sale-text__percentage">50% OFF</div>
+                </div>
+            </div>
+            <form class="sale-checkout">
+                <button class="sale-checkout__button">SHOP NOW</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="advantages wrapper">
+        <div class="advantages-item">
+            <div class="advantages-item__image"><i class="fas fa-plane" data-fa-transform="rotate--45"></i></div>
+            <div class="advantages-item__text">
+                <div class="advantages-item__title">FREE SHIPPING</div>
+                <div class="advantages-item__subtitle">In Order Min $200</div>
+            </div>
+        </div>
+        <div class="advantages-item">
+            <div class=" advantages-item__image"><i class="far fa-clock"></i></div>
+            <div class="advantages-item__text">
+                <div class="advantages-item__title">30-DAYS RETURNS</div>
+                <div class="advantages-item__subtitle">Money Back Guarantee</div>
+            </div>
+        </div>
+        <div class="advantages-item">
+            <div class="advantages-item__image"><i class="far fa-life-ring"></i></div>
+            <div class="advantages-item__text">
+                <div class="advantages-item__title">24/7 SUPPORT</div>
+                <div class="advantages-item__subtitle">Lifestyme Support</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="handpicked wrapper">
         <div class="section-headline">
             <div class="section-headline__line"></div>
-
             <div class="section-headline__title">
-                <div class="section-headline__rhomb"></div>
                 <h3 class="section-headline__text">HandPicked</h3>
-                <div class="section-headline__rhomb"></div>
             </div>
             <div class="section-headline__line"></div>
         </div>
@@ -25,6 +120,7 @@
             <div class="handpicked-images__side">
                 <figure class="handpicked-images__item">
                     <img src="assets/img/boots.png" alt="">
+                    <div class="handpicked-images__outline"></div>
                     <div class="handpicked-hover__darker"></div>
                     <div class="handpicked-hover__vertical-cross"></div>
                     <div class="handpicked-hover__horizontal-cross"></div>
@@ -34,6 +130,7 @@
                 </figure>
                 <figure class="handpicked-images__item">
                     <img src="assets/img/bracelet1.png" alt="">
+                    <div class="handpicked-images__outline"></div>
                     <div class="handpicked-hover__darker"></div>
                     <div class="handpicked-hover__vertical-cross"></div>
                     <div class="handpicked-hover__horizontal-cross"></div>
@@ -45,11 +142,13 @@
             <div class="handpicked-images__middle">
                 <figure class="handpicked-images__item">
                     <img src="assets/img/hillton.png" alt="">
+                    <div class="handpicked-images__middle-outline"></div>
                 </figure>
             </div>
             <div class="handpicked-images__side">
                 <figure class="handpicked-images__item">
                     <img src="assets/img/bracelet2.png" alt="">
+                    <div class="handpicked-images__outline"></div>
                     <div class="handpicked-hover__darker"></div>
                     <div class="handpicked-hover__vertical-cross"></div>
                     <div class="handpicked-hover__horizontal-cross"></div>
@@ -59,6 +158,7 @@
                 </figure>
                 <figure class="handpicked-images__item">
                     <img src="assets/img/cardholder.png" alt="">
+                    <div class="handpicked-images__outline"></div>
                     <div class="handpicked-hover__darker"></div>
                     <div class="handpicked-hover__vertical-cross"></div>
                     <div class="handpicked-hover__horizontal-cross"></div>
@@ -70,14 +170,11 @@
         </div>
     </section>
 
-    <section class="summer">
+    <section class="summer wrapper">
         <div class="section-headline">
             <div class="section-headline__line"></div>
-
             <div class="section-headline__title">
-                <div class="section-headline__rhomb"></div>
                 <h3 class="section-headline__text">Summer Collection</h3>
-                <div class="section-headline__rhomb"></div>
             </div>
             <div class="section-headline__line"></div>
         </div>
@@ -136,14 +233,13 @@
             </figure>
         </div>
     </section>
-    <section class="brands">
+
+    <section class="brands wrapper">
         <div class="section-headline">
             <div class="section-headline__line"></div>
 
             <div class="section-headline__title">
-                <div class="section-headline__rhomb"></div>
                 <h3 class="section-headline__text">Our Brand</h3>
-                <div class="section-headline__rhomb"></div>
             </div>
             <div class="section-headline__line"></div>
         </div>
@@ -169,6 +265,174 @@
         </div>
     </section>
 
-<script src="assets/js/main.js"></script>
+    <section class="customers-section wrapper">
+        <div class="section-headline">
+            <div class="section-headline__line"></div>
+            <div class="section-headline__title">
+                <h3 class="section-headline__text">Customers Says</h3>
+            </div>
+            <div class="section-headline__line"></div>
+        </div>
+        <div class="customers">
+
+            <figure class="customer">
+                <div class="customer__photo">
+                    <img src="assets/img/stylish_dewi.png" alt="" class="customer__image">
+                </div>
+                <div class="customer-text">
+                    <div class="customer-text__speech">
+                        Sed ut perspiciatis<br>
+                        unde omnis iste natus error sit<br>
+                        voluptatem accusantium doloremque
+                    </div>
+                    <div class="customer-text__name">Sandra Dewi</div>
+                    <div class="customer-text__profession">FASHION STYLISH</div>
+                </div>
+            </figure>
+
+            <figure class="customer">
+                <div class="customer-text">
+                    <div class="customer-text__speech">
+                        Sed ut perspiciatis<br>
+                        unde omnis iste natus error sit<br>
+                        voluptatem accusantium doloremque
+                    </div>
+                    <div class="customer-text__name">Shaheer Sheikh</div>
+                    <div class="customer-text__profession">DESIGNER</div>
+                </div>
+                <div class="customer__photo">
+                    <img src="assets/img/designer_sheikh.png" alt="" class="customer__image">
+                </div>
+            </figure>
+
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer-top wrapper">
+        <div class="footer-menu">
+            <div class="footer-menu__item">
+                <h4 class="footer-menu__title">SHOPS</h4>
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">New In</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Women</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Men</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Shoes</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Bags &amp; Accessories</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Top Brands</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Sale &amp; Special Offers</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Lookbook</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu__item">
+                <h4 class="footer-menu__title">INFORMATION</h4>
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">About us</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Customer Service</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">New Collection</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Best Sellers</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Manufacturers</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Privacy policy</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Terms &amp; condition</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu__item">
+                <h4 class="footer-menu__title">CUSTOMER SERVICE</h4>
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Search Terms</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Advanced Search</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Orders and Returns</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Contact Us</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">RSS</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Help &amp; FAQs</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Consultant</a>
+                    </li>
+                    <li class="footer-menu__list-item">
+                        <a href="#" class="footer-menu__link">Store Locations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-connections">
+            <h4 class="footer-connections__title">STAY CONNECTED</h4>
+            <div class="footer-socials">
+                <div class="footer-socials__item"><i class="fab fa-lg fa-facebook-f"></i></div>
+                <div class="footer-socials__item"><i class="fab fa-lg fa-twitter"></i></div>
+                <div class="footer-socials__item"><i class="fab fa-lg fa-instagram"></i></div>
+                <div class="footer-socials__item"><i class="fab fa-lg fa-pinterest"></i></div>
+                <div class="footer-socials__item"><i class="fas fa-lg fa-rss"></i></div>
+            </div>
+            <h4 class="footer-connections__title">SUBSCRIBE <i>in</i>&nbsp; OUR NEWS LETTER</h4>
+            <form class="footer-subscribe" method="get">
+                <input type="email" class="footer-subscribe__input" placeholder="Enter Your Email Address">
+                <button type="submit" class="footer-subscribe__button">SUBSCRIBE</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-bottom wrapper">
+        <div class="footer-bottom__triangle"><i class="fas fa-caret-down fa-3x"></i></div>
+        <small class="footer-copyright">
+            © 2015  Shopia  Fashion Store Shopify.<br>
+            All Rights Reserved. Ecommerce Software by Shopify.<br>
+            Designed by <a href="#" class="footer-copyright__link">MoccaLabs.com</a>
+        </small>
+        <div class="footer-cards">
+            <div class="footer-cards__item"><i class="fab fa-cc-visa"></i></div>
+            <div class="footer-cards__item"><i class="fab fa-cc-mastercard"></i></div>
+            <div class="footer-cards__item"><i class="fab fa-cc-amex"></i></div>
+            <div class="footer-cards__item"><i class="fab fa-cc-discover"></i></div>
+        </div>
+    </div>
+    <div class="subfooter wrapper"></div>
+</footer>
+
 </body>
 </html>
